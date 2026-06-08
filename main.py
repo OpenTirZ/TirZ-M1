@@ -7,6 +7,7 @@ from Data import data
 from Creating_Data_set import DataSet
 from Attention.MultiHeadAttention import MultiHeadAttention
 from Activation.GELU import GELU
+from LayerNorm.LayerNorm import LayerNorm
 
 torch.manual_seed(123)
 
