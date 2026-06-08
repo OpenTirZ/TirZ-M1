@@ -11,13 +11,15 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg)](https://pytorch.org/)
 [![Model Size](https://img.shields.io/badge/Parameters-417M-6E40C7.svg)](#)
 
+**Author:** [Tirth Patel](https://github.com/Tirth9978) ([@Tirth9978](https://github.com/Tirth9978))
+
 </div>
 
 ---
 
 ## Introduction
 
-TirZ M1 is a GPT-style decoder-only transformer language model comprising **417,887,232 trainable parameters**, designed and trained from scratch by the OpenTirZ team. Built upon the foundational principles established in the landmark "Attention Is All You Need" paper and refined through the GPT architecture lineage, TirZ M1 demonstrates that a well-engineered, moderately-sized language model can achieve meaningful text generation capabilities while remaining accessible for research, experimentation, and deployment on consumer-grade hardware. The model is trained with a next-token prediction objective using cross-entropy loss and optimized with AdamW, following a curriculum that spans 13 full epochs over a curated text corpus. TirZ M1 employs a pre-LayerNorm transformer architecture with multi-head causal self-attention, a three-layer feed-forward network with GELU activations, and top-K sampling for diverse and controllable text generation.
+TirZ M1 is a GPT-style decoder-only transformer language model comprising **417,887,232 trainable parameters**, designed and trained from scratch by [Tirth Patel](https://github.com/Tirth9978) ([@Tirth9978](https://github.com/Tirth9978)) under the OpenTirZ organization. Built upon the foundational principles established in the landmark "Attention Is All You Need" paper and refined through the GPT architecture lineage, TirZ M1 demonstrates that a well-engineered, moderately-sized language model can achieve meaningful text generation capabilities while remaining accessible for research, experimentation, and deployment on consumer-grade hardware. The model is trained with a next-token prediction objective using cross-entropy loss and optimized with AdamW, following a curriculum that spans 13 full epochs over a curated text corpus. TirZ M1 employs a pre-LayerNorm transformer architecture with multi-head causal self-attention, a three-layer feed-forward network with GELU activations, and top-K sampling for diverse and controllable text generation.
 
 ---
 
@@ -292,7 +294,8 @@ If you use TirZ M1 in your research or projects, please cite it as:
 ```bibtex
 @misc{tirzm1,
   title={TirZ M1: A 417M Parameter Decoder-Only Transformer Language Model},
-  author={OpenTirZ},
+  author={Tirth Patel},
+  howpublished={\url{https://github.com/Tirth9978}},
   year={2026},
   publisher={GitHub},
   url={https://github.com/OpenTirZ/TirZ-M1}
@@ -309,6 +312,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 <div align="center">
 
-**TirZ M1** — Built with conviction by [OpenTirZ](https://github.com/OpenTirZ)
+**TirZ M1** — Built with conviction by [Tirth Patel](https://github.com/Tirth9978) ([@Tirth9978](https://github.com/Tirth9978)) | [OpenTirZ](https://github.com/OpenTirZ)
 
 </div>
